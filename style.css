@@ -5,17 +5,17 @@
 @font-face {
     font-family: font2;
     src: url(fonts/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2);
-}
-@font-face {
-    font-family: font3;
-    src: url(fonts/TTNorms-Bold.woff2);
-}
-@font-face {
+}                    
+@font-face {            
+    font-family: font3;           
+    src: url(fonts/TTNorms-Bold.woff2);     
+}      
+@font-face {     
     font-family: font4;
     src: url(fonts/TTNorms-ExtraBold.woff2);
 }
 @font-face {
-    font-family: font5;
+    font-family: font5;           
     src: url(fonts/TTNorms-Medium.woff2);
 }
 @font-face {
