@@ -14,7 +14,7 @@
     font-family: font4;
     src: url(fonts/TTNorms-ExtraBold.woff2);
 }
-@font-face {
+@font-face {                    
     font-family: font5;           
     src: url(fonts/TTNorms-Medium.woff2);
 }
@@ -23,7 +23,7 @@
     src: url(fonts/TTNorms-Regular.woff2);
 }
 *{
-    margin: 0px;     
+    margin: 0px;            
     padding: 0px;                   
     box-sizing: border-box;                                      
 }                   
@@ -74,11 +74,11 @@
     color: rgb(96, 96, 96);
 }
 .text{
-    margin-left: 6px;
+    margin-left: 3.5px;
      font-family: font5;
     font-size: 14px;
     font-weight: 500;
-    letter-spacing: -0.01;
+    letter-spacing: -0.01px;  
     line-height: 20px;
     color: rgb(96, 96, 96);
 }
@@ -91,6 +91,13 @@
     font-size: 14px;
     right: -19px;
     color: #606060ff;
+}
+.star svg:first-child{  
+    margin-left: 2.5px;
+    margin-right: 2px;
+}
+.star svg{
+    margin-right: 2px;
 }
 .button{
     background:transparent;
@@ -148,7 +155,8 @@
     line-height: -0;
 }
 .doordash{
-   margin-left: 8px !important;
+    margin-left: 8px !important;
+    transform: translateY(-0.4px);
 }
 .body1{
     display: flex;
@@ -389,6 +397,16 @@ h1{
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+}
+.star1 svg:first-child{
+    margin-left: 2px;
+    margin-right: 2px;
+}           
+.star1 svg{          
+    margin-right: 2px;   
+}
+.star1 svg:last-of-type {
+  margin-right: 2.5px;
 }
 .boxbutton{
     margin-top: 16px !important;
@@ -996,8 +1014,9 @@ h1{
     color: #191919ff;
     font-family: font3;
     font-size: 18px;
+    font-size: 32px;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 40px;
     letter-spacing: -0.01px;
     display: block;
 }
@@ -1109,6 +1128,7 @@ h1{
     align-items: center;
     justify-content: center;
     padding: 10px 0px;
+    margin-top: 4px;
 }
 
 .seemore1{
@@ -1995,9 +2015,9 @@ h1{
     width: 100%;
 }
 .label{
-    font-size: 18px;
+    font-size: 32px;
+    line-height: 40px;
     font-weight: 700;
-    line-height: 22px;
     letter-spacing: -0.01px;
     display: block;
 } 
@@ -2020,11 +2040,14 @@ h1{
 }
 .chains1{
     padding: 0%;
-    margin: 0;
+    margin: 0;      
+}
+.seemore{
+    margin-top: 0;
 }
 .content1{
     gap: 16px;
-    white-space: nowrap;
+    white-space: nowrap;                           
 }
 .sectionlast{
     width: 100%;
@@ -2037,7 +2060,7 @@ h1{
     display: flex;
     flex-direction: column;
     flex: 1 1 0%;
-}
+}        
 .contentlayer{
     flex-direction: column;
     display: flex;
