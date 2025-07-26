@@ -1377,21 +1377,16 @@ h1{
 .imgslidetab{
     display: none;          
 }
-@media screen and (min-width:425px) {
 .box1{
     margin: 20px 33px 0px;            
 }
 .section2a{
     padding: 8px 8px 8px 12px;                     
 }                        
-.textdriver{                                  
-    margin-right: -44px;                                                     
-}                                  
+                                
 .lytext1 {    
-    margin-right: 30px;                         
-}          
-}                                                  
-                          
+    margin-right: 30px;                               
+}                
 @media screen and (min-width:451px) {
 .delivery{
     margin: 0 14px 0px 14px;           
@@ -2059,7 +2054,7 @@ h1{
 .footercontent1{
     display: flex;
     flex-direction: column;
-    flex: 1 1 0%;
+    flex: 1 1 0%;                  
 }        
 .contentlayer{
     flex-direction: column;
